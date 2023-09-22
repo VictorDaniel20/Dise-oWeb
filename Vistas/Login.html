@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Agrega enlaces a Bootstrap y FontAwesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/lock-unlock.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/lock.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Css/LoginStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="Welcome col-md-6">
+                <div class="container-welcome">
+                    <h2 class="titleL">Bienvenido a <br> Vianco - Lab Formatos</h2>
+                    <p>El objetivo principal al crear esta plataforma web es optimizar la gestión de información de los alumnos en el área de doctorado en la Facultad de Ingenieria de la Universidad Autonoma del Estado de México.</p>
+                    <div class="logos col-12">
+                        <img class="iconslogo" src="https://cdn-icons-png.flaticon.com/512/9034/9034536.png" alt="">
+                        <img class="iconslogo" src="https://cdn-icons-png.flaticon.com/512/2784/2784399.png" alt="">
+                        <img class="iconslogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/1024px-Yes_Check_Circle.svg.png" alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg" alt="" class="iconslogo">
+                        <img src="https://fi.uaemex.mx/portal/images/fi/cabecera.png" alt="" class="iconslogo">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+                <div class="container-login">
+                    <div class="col-12">
+                        <h1 class="title">Iniciar sesión</h1>
+                    </div>
+                    <div class="img col-12">
+                        <img class="logo"
+                            src="https://vianco.uaemex.mx/wp-content/uploads/2020/05/vianco13about-360x239.png" alt="">
+                    </div>
+                    <form action="/Vistas/Home.html" method="get">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="gg-mail"></i></span>
+                                <input type="email" class="form-control" id="email" placeholder="correo@example.com"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="gg-lock" id="candado"></i></i></span>
+                                <input type="password" class="form-control" id="password" placeholder="Contraseña"
+                                    required>
+                                <button type="button" id="lock" class="password-button">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="Alumno mb-3">
+                            <label class="form-label">Si eres alumno da click <a href="#">aqui</a></label>
+                        </div>
+                        <div class="boton col-12">
+                            <button type="submit" class="btn btn-primary">Iniciar sesión </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Agrega enlaces a las bibliotecas de Bootstrap y FontAwesome -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="/Js/LoginJs.js"></script>
+</body>
+
+</html>

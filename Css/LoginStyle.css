@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Mooli&family=Poppins:wght@200&family=Rubik+Iso&display=swap');
+
+body {
+    background: linear-gradient(to right,#003b5e,#006c9c,#00a8e4);
+    width: 100%;
+    height: 100%;
+}
+
+.form-label{
+    font-weight: bold;
+    color:#fff;
+}
+.container{
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    }
+
+.container-login {
+    background-color: rgba(79, 105, 139, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 8, 8, 0.2);
+    backdrop-filter: blur(2000px);
+    
+}
+
+.container-welcome {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+}
+.logos{
+    text-align: center;
+}
+.Alumno{
+    text-align: end;
+}
+.Alumno label{
+    color: #fff;
+}
+.Alumno label a{
+    color: #000;
+}
+.Alumno label a:hover{
+    color: #fffba3;
+}
+.iconslogo{
+    width: 3rem;
+    height: auto;
+}
+.titleL{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Mooli', sans-serif;
+    color: #fffba3;
+
+}
+.Welcome{
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-top: 20%;
+    }
+    .container-welcome {
+        display: none;
+    }
+    .logo{
+        text-align: center;
+        height: 200px;
+
+    }
+}
+
+.title{
+    text-align: center;
+    color: #fffba3;
+    font-weight: bold;
+
+}
+
+.img{
+    text-align: center;
+}
+
+.logo{
+    width: auto;
+    max-height: 300px;
+}
+.boton{
+    text-align: center;    
+}

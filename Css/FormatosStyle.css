@@ -1,0 +1,76 @@
+
+
+/* Estilos de la barra horizontal */
+.navbar {
+    display: flex;
+    background-color: #003b5e;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.navbar a.active{
+background-color: #007bff;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+/* Estilos para dispositivos pequeños (menú vertical) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .navbar a {
+        width: 33%;
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .navbar a.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+        gap:8px;
+    }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    /* Color de texto del menú horizontal */
+}
+
+.contenedor1{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.card-body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.card {
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.section{
+    box-shadow: 1px 0px 2px 0px;
+}
